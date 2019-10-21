@@ -10,4 +10,4 @@ services:
       args:
         VERSION: latest
       dockerfile: Dockerfile
-    image: index.docker.io/dkirrane/ibm-openapi-validator:latest
+    image: dkirrane/ibm-openapi-validator:latest
