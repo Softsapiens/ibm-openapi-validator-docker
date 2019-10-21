@@ -8,6 +8,6 @@ services:
     build:
       context: .
       args:
-        VERSION: v0.15.1
+        VERSION: latest
       dockerfile: Dockerfile
-    image: index.docker.io/dkirrane/ibm-openapi-validator:v0.15.1
+    image: index.docker.io/dkirrane/ibm-openapi-validator:latest

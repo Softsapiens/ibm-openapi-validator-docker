@@ -1,6 +1,6 @@
 FROM node:12.4
 
-ARG VERSION=v0.15.1
+ARG VERSION=latest
 
 RUN npm config set registry http://registry.npmjs.org/
 RUN npm install -g ibm-openapi-validator@${VERSION}
